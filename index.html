@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Juegos Kids
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- MOBILE NAV -->
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="bx bxs-home"></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class='bx bxs-wink-smile'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class='bx bxs-food-menu'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonial">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
+        </div>
+    </div>
+    <!--PORTADA -->
+    <a href="#home" class="back-to-top">
+        <i class="bx bxs-to-top"></i>
+    </a>
+
+    <!--PORTADA-->
+    <div class="nav">
+        <div class="menu-wrap">
+            <a href="#home">
+                <div class="logo">
+                    Juegos Kids
+                </div>
+            </a>
+            <div class="menu h-xs">
+                <a href="#home">
+                    <div class="Juegos active">
+                        Inicio
+                    </div>
+                </a>
+                <a href="#about">
+                    <div class="Juegos">
+                        informacion
+                    </div>
+                </a>
+                <a href="#juegos">
+                    <div class="Juegos">
+                        Juegos
+                    </div>
+                </a>
+                <a href="#testimonial">
+                    <div class="Juegos">
+                        Integrantes
+                    </div>
+                </a>
+            </div>
+            <div class="Juegos"> 
+                <span class="ic">&#128269;</span> <!-- Lupa -->
+                <input id="search-input" name="food-category" type="text" class="input-search" autocomplete="off" placeholder="¿A qué jugamos hoy?">
+            </div>
+            
+            </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Seccion Inicio -->
+    <section id="home" class="fullheight align-items-center bg-img bg-img-fixed"
+        style="background-image: url(https://i1.wp.com/www.silviagaliana.com/wp-content/uploads/2013/01/Fondo-Mario-para-Twitter.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <div class="slogan">
+                        <h1 class="left-to-right play-on-scroll">
+                            Juegos Kids
+                        </h1>
+                        <p class="left-to-right play-on-scroll delay-2">
+                            Esta página web esta diseñada para promover juegos educativos de suma, 
+                            resta y otras actividades matemáticas para niños podría ser proporcionar un entorno interactivo 
+                            y divertido que fomente el aprendizaje de habilidades de manera lúdica. 
+                        </p>
+                        <div class="left-to-right play-on-scroll ">
+                            <a href="#juegos">
+                                <div class="Juegos"  style="font-size: 1em; padding: 0.5em 1em; display: inline-block;">
+                                    Juega ya!
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion  contenido-->
+    <section class="about fullheight align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 h-xs">
+                    <img src="assets/pngwing.com.png" alt=""
+                        class="fullwidth left-to-right play-on-scroll">
+                </div>
+                <div class="col-5 col-xs-12 align-items-center">
+                    <div class="about-slogan right-to-left play-on-scroll">
+                        <h3>
+                            <span class="primary-color">Ven</span> juega <span class="primary-color">y aprende</span>
+                            de manera <span class="primary-color">interactiva</span>
+                        </h3>
+                        <p>
+                            Bienvenido a Juegos Kids, tu compañero de aprendizaje personalizado diseñado para potenciar tus habilidades
+                            en diversas áreas. Ya sea que estés buscando mejorar tus habilidades, académicas o personales, Juegos Kids te ofrece un enfoque 
+                            interactivo y personalizado para tu crecimiento!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- JUEGOS SECCION  -->
+    <section class="align-items-center bg-img bg-img-fixed" id="juegos"
+        style="background-image: url(/Algoritmo/assets/fondojuegos.webp);">
+        <div class="container">
+            <div class="food-menu">
+                <h1>
+                    Estás <span class="primary-color">listo</span> para divertirte hoy?
+                </h1>
+                <p>
+                    
+                </p>
+                <div class="food-category">
+                    <div class="zoom play-on-scroll">
+                        <button class="active" data-food-type="all">
+                            TODO
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-2">
+                        <button data-food-type="salad">
+                            PRIMARIA
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-4">
+                        <button data-food-type="lorem">
+                            SECUNDARIA
+                        </button>
+                    </div>
+                </div>
+
+                <div class="food-item-wrap all">
+                    <div class="food-item salad-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <a href="./pages_principal/Primaria_menores.html" class="img-holder bg-img" style="background-image: url(/assets/images.suma.jpg);"></a>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        JUEGOS DE PRIMARIA 
+                                    </h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="food-item lorem-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <a href="./pages_principal/Secundaria_basica.html" class="img-holder bg-img" style="background-image: url(/assets/images.consonantes.jpg);"></a>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        JUEGOS DE BASICA SUPERIOR
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TESTIMONIAL SECTION -->
+    <section id="testimonial">
+        <div class="container">
+            <H1>INTEGRANTES DEL PROYECTO DE INVESTIGACION </H1>
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-2">
+                        <div class="review-content">
+                            <div class="review-img bg-img"
+                                style="background-image: url(/assets/FOTOYO.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                ANGIE MENDOZA
+                            </h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="zoom play-on-scroll">
+                        <div class="review-wrap active">
+                            <div class="review-content">
+                                <div class="review-img bg-img"
+                                    style="background-image: url(/assets/ASDDD.png);">
+                                </div>
+                            </div>
+                            <div class="review-info">
+                                <h3>
+                                    ADRIAN AVILA
+                                </h3>
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-4">
+                        <div class="review-content">
+                            <div class="review-img bg-img"
+                                style="background-image: url(/assets/MICHH.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                ANGGIE PROCEL
+                            </h3>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <section class="footer bg-img" style="background-image: url(/assets/imagen.fondooo.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <h1>
+                        Juegos Kids
+                    </h1>
+                    
+                    <br>
+                    <p>TODOS LOS DERECHOS RESERVADOS</p>
+                    <br>
+                    <p>Email: amendozab4@unemi.edu.ec</p>
+                    <p>Phone: +593 993187426</p>
+                    <p>Website: juegoskids.com</p>
+                </div>
+                <div class="col-2 col-xs-12">
+                    <h1>
+                        Juegos
+                    </h1>
+                    <br>
+                    <p>
+                        <a href="#">
+                            Informacion
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Integrantes
+                        </a>
+                    </p>
+                    <p>
+                    <p>
+                        <a href="#">
+                            Variedad de juegos
+                        </a>
+                    </p>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h1>
+                        Visita nuestra página
+                    </h1>
+                    <br>
+                    <p>Encontraras variedad de juegos recreativos para niños y jovenes que desean ampliar sus conocimientos y formación
+                        es una pagina divertida y animada..
+                    </p>
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter your email">
+                        <button>
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOTER SECTION -->
+    
+
+    <script src="index.js"></script>
+</body>
+
+</html>

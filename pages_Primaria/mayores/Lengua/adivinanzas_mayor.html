@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo-juegos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body onload="play.actualizar_adivinanza_mayor()">
+
+    <nav class="menu-principal">
+        <ul class="nav">
+            <a href="/index.html"><img src="/img/logokid.png" alt="" class="logo"></a>
+            <li class="menu">
+                <a href="/index.html" id="inicio"><img src="/img/home.png" class="home">INICIO</a></li>
+
+            <li class="menu">
+                <a href="#primaria" id="primaria"> <img src="/img/primario.png" class="home">PRIMARIA</a>
+                <ul class="submenu">
+                    <li><a href="/pages_principal/Primaria_menores.html">Niños menores de 8</a></li>
+                    <li><a href="/pages_principal/Primaria_mayores.html">Niños mayores de 8</a></li>
+                </ul>
+            </li>
+
+            <li class="menu">
+                <a href="#secundaria" id="secundaria"><img src="/img/secundaria.png" class="home">SECUNDARIA</a>
+                <ul class="submenu">
+                    <li><a href="/pages_principal/Secundaria_basica.html">Basica superior</a></li>
+                    <li><a href="/pages_principal/Secundaria_bachillerato.html">Bachillerato</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/pages_principal/contactos.html" id="contacto"><img src="/img/contacto.png" class="home">CONTACTOS</a></li>
+            <li><a href="/pages_principal/ayuda.html" id="ayuda"><img src="/img/ayuda.png" class="home">AYUDA</a></li>
+        </ul>
+    </nav>
+    <div class="contenido-general">
+        <div>
+            <a href="/pages_Primaria/mayores/lengua.html"><img src="/img/exit.png" alt="" width="30px" height="30px" class="exit"></a> 
+            </div>
+        <section class="tit">
+            <h1>Juega y aprende</h1>
+        </section>
+       
+        <section class="j2-Math1">
+            <h4 >Adivina la adivinanza</h4>
+            <div class="juego_numero">
+                <div class="adivinar" id="adivinanzas">
+                   Cadena de numero
+                </div>
+                <div class="bt-numeros1">
+                    <label for=""></label>
+                    <input type="text" id="resp_user" placeholder="Respuesta:">
+                        <button type="button" class="bt-mayor"  onclick="play. comprobar_Adivinanza_mayor()">Comprobar</button> 
+                </div>
+            </div>
+            <div class="bts-adivinar">
+                <button type="button" class="bt-mayor" onclick="play.actualizar_adivinanza_mayor()">Actualizar</button>
+            </div>
+           
+        </section>
+        
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

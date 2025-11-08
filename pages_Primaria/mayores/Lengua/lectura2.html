@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo-juegos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body onload="play.actualizar_divisores()">
+
+    <nav class="menu-principal">
+        <ul class="nav">
+            <a href="/index.html"><img src="/img/logokid.png" alt="" class="logo"></a>
+            <li class="menu">
+                <a href="/index.html" id="inicio"><img src="/img/home.png" class="home">INICIO</a></li>
+
+            <li class="menu">
+                <a href="#primaria" id="primaria"> <img src="/img/primario.png" class="home">PRIMARIA</a>
+                <ul class="submenu">
+                    <li><a href="/pages_principal/Primaria_menores.html">Niños menores de 8</a></li>
+                    <li><a href="/pages_principal/Primaria_mayores.html">Niños mayores de 8</a></li>
+                </ul>
+            </li>
+
+            <li class="menu">
+                <a href="#secundaria" id="secundaria"><img src="/img/secundaria.png" class="home">SECUNDARIA</a>
+                <ul class="submenu">
+                    <li><a href="/pages_principal/Secundaria_basica.html">Basica superior</a></li>
+                    <li><a href="/pages_principal/Secundaria_bachillerato.html">Bachillerato</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/pages_principal/contactos.html" id="contacto"><img src="/img/contacto.png" class="home">CONTACTOS</a></li>
+            <li><a href="/pages_principal/ayuda.html" id="ayuda"><img src="/img/ayuda.png" class="home">AYUDA</a></li>
+        </ul>
+    </nav>
+   
+    <div class="contenido-general">
+        <div>
+            <a href="/pages_Primaria/mayores/Lengua/lectura_principal.html"><img src="/img/exit.png" alt="" width="30px" height="30px" class="exit"></a> 
+            </div>
+        <section class="tit">
+            <h1>Juega y aprende</h1>
+        </section>
+       
+        <section class="j2-cuento">
+            <h4 class="lectura">Lee atentamente la siguiente lectura </h4>
+            
+            <div class="juego_cuento">
+                <center><h2>UN RATÓN CON SUERTE</h2></center>
+                <center><img src="/img/Prim-leng/raton_cuento.png" alt="" width="200px" height="200px"></center>
+                <div class="cadena-cuento" id="cadena1">
+                  Había una vez un pequeño ratón llamado Juanito. Un día, Juanito se encontró un queso delicioso
+                  en el campo y lo llevó a la casa. Cuando llegó, su mamá ratona le preguntó: "¿Qué tienes ahí, 
+                  Juanito?"
+                  Junito le mostró el queso y dijo: "He encontrado un queso delicioso en el campo, ¿puedo comerlo?"
+                  La mamá ratona sonrió y le dijo: "Por supuesto, Juanito. Disfrútalo".
+                  Y así Juanito se sentó a comer su queso delicioso. ¡FIN!
+                </div>
+           </div>
+        </section>
+        <form action="/pages_Primaria/mayores/Lengua/lectura2_respuesta.html">
+            <div class="continuar">
+            <button type="submit" class="bt-continuar" >Continuar</button>
+        </div>
+        </form>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisores</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo-juegos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body onload="play.actualizar_area3()">
+
+    <nav class="menu-principal">
+        <ul class="nav">
+            <a href="/index.html"><img src="/img/logokid.png" alt="" class="logo"></a>
+            <li class="menu">
+                <a href="/index.html" id="inicio"><img src="/img/home.png" class="home">INICIO</a></li>
+
+            <li class="menu">
+                <a href="#primaria" id="primaria"> <img src="/img/primario.png" class="home">PRIMARIA</a>
+                <ul class="submenu">
+                    <li><a href="/pages_principal/Primaria_menores.html">Niños menores de 8</a></li>
+                    <li><a href="/pages_principal/Primaria_mayores.html">Niños mayores de 8</a></li>
+                </ul>
+            </li>
+
+            <li class="menu">
+                <a href="#secundaria" id="secundaria"><img src="/img/secundaria.png" class="home">SECUNDARIA</a>
+                <ul class="submenu">
+                    <li><a href="/pages_principal/Secundaria_basica.html">Basica superior</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/pages_principal/contactos.html" id="contacto"><img src="/img/contacto.png" class="home">CONTACTOS</a></li>
+            <li><a href="/pages_principal/ayuda.html" id="ayuda"><img src="/img/ayuda.png" class="home">AYUDA</a></li>
+        </ul>
+    </nav>
+   
+    <div class="contenido-general">
+        <div>
+            <a href="/pages_secundaria/basica_superior/matt_superior.html"><img src="/img/exit.png" alt="" width="30px" height="30px" class="exit"></a> 
+            </div>
+        <section class="tit">
+            <h1>Juega y aprende</h1>
+        </section>
+       
+        <section class="j-area">
+            <h4 class="area">Calcula el área de un cuadrado</h4>
+            <div class="juego_numero">
+                <div class="cadena" id="cadena1">
+                    <div class="altura">
+                        <p id="etiqueta">Lados:</p>
+                        <p id="lados">12</p>
+                        <p>cm</p>
+                    </div>
+
+                   
+                </div>
+                <div class="bt-numeros1">
+                    <label for=""></label>
+                    <input type="number" id="resp_area" placeholder="Redondea la respuesta con 2 decimal">
+                        <button type="button" class="bt-mayor"  onclick="play.comprobar_area3()">Comprobar</button> 
+                </div>
+            </div>
+            <div class="cadena-actu">
+                <button type="button" class="bt-mayor" onclick="play.actualizar_area3()">Actualizar</button>
+            </div>
+           
+        </section>
+        <form action="/pages_secundaria/basica_superior/matt/areas4.html">
+            <div class="continuar">
+            <button type="submit" class="bt-continuar" >Continuar</button>
+        </div>
+        </form>
+        <form action="/pages_secundaria/basica_superior/matt/areas2.html">
+        <div class="atras">
+            <button type="submit" class="bt-continuar" >Atrás</button>
+        </div>
+            </form>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

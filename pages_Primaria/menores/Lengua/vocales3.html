@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocales</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo-juegos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body onload="play.Actualizar_Vocal()">
+
+    <nav class="menu-principal">
+        <ul class="nav">
+            <a href="/index.html"><img src="/img/logokid.png" alt="" class="logo"></a>
+            <li class="menu">
+                <a href="/index.html" id="inicio"><img src="/img/home.png" class="home">INICIO</a></li>
+            <li><a href="/pages_principal/contactos.html" id="contacto"><img src="/img/contacto.png" class="home">CONTACTOS</a></li>
+            <li><a href="/pages_principal/ayuda.html" id="ayuda"><img src="/img/ayuda.png" class="home">AYUDA</a></li>
+        </ul>
+    </nav>
+   
+    <div class="contenido-general">
+        <div>
+            <a href="/pages_Primaria/menores/Lengua_Prim_menor.html"><img src="/img/exit.png" alt="" width="30px" height="30px" class="exit"></a> 
+            </div>
+        <section class="tit">
+            <h1>Juega y aprende</h1>
+        </section>
+        <section class="j2-Math">
+            <h4>Ingresa una palabra que EMPIECE CON LA VOCAL que aparece en el recuadro</h4>
+            <div class="juego_numero">
+                
+                <div class="cadena" id="vocales1">
+                   Cadena de numero
+                </div>
+                
+                <div class="bt-numeros1">
+                    <label for=""></label>
+                    <input type="text" id="palabra" placeholder="Respuesta:">
+                        <button type="button" class="bt-mayor"  onclick="play.Comprobar_PalabraVocal()">Comprobar</button> 
+                </div>
+            </div>
+            <div class="cadena-actu">
+                <button type="button" class="bt-mayor" onclick="play. Actualizar_Vocal()">Actualizar</button>
+            </div>
+           
+        </section>
+        <form action="/pages_Primaria/menores/Lengua/vocales2.html">
+            <div class="atras">
+                <button type="submit" class="bt-continuar" >Atrás</button>
+            </div>
+                </form>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

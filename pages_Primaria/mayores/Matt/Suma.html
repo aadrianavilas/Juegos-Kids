@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo-juegos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body onload="play.actualizar_suma()">
+
+    <nav class="menu-principal">
+        <ul class="nav">
+            <a href="/index.html"><img src="/img/logokid.png" alt="" class="logo"></a>
+            <li class="menu">
+                <a href="/index.html" id="inicio"><img src="/img/home.png" class="home">INICIO</a></li>
+            <li><a href="/pages_principal/contactos.html" id="contacto"><img src="/img/contacto.png" class="home">CONTACTOS</a></li>
+            <li><a href="/pages_principal/ayuda.html" id="ayuda"><img src="/img/ayuda.png" class="home">AYUDA</a></li>
+        </ul>
+    </nav>
+    
+   
+    <div class="contenido-general">
+        <div>
+            <a href="/pages_Primaria/mayores/matt.html"><img src="/img/exit.png" alt="" width="30px" height="30px" class="exit"></a> 
+            </div>
+        <section class="tit">
+            <h1>Juega y aprende</h1>
+        </section>
+        <section class="Suma-Math">
+            <h4>Seleccione la respuesta correcta de la suma</h4>
+            <div class="contenedor-suma">
+            <div class="juego_suma">
+                <div class="operador">
+                    +
+                </div>
+                <div class="juego-suma">
+                   <div class="num">
+                    <p class="pf" id="num1">7</p>
+                   </div>
+                   <div class="num" >
+                    <p class="pf" id="num2">245</p>
+                   </div>
+                   <hr>
+                   <div class="resp">
+                    <input type="number" id="resp" class="input-suma">
+                   </div>
+                </div>
+            </div>
+            
+            <div class="botones">
+                <button type="button" class="bt-mayor" onclick="play. actualizar_suma_mayores()">Actualizar</button>
+                <button type="button" class="bt-mayor" onclick="play.comprobar_suma1()">Comprobar</button>
+            </div>
+        </div>
+        </section>
+        <form action="/pages_Primaria/mayores/Matt/suma_2.html">
+        <div class="continuar">
+        <button type="submit" class="bt-continuar" >Continuar</button>
+    </div>
+        </form>
+    </div>
+    <script src="/js/main.js"></script>
+    
+</body>
+</html>

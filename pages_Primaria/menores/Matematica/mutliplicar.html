@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo-juegos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body onload="play.actualizar_multiplicar()">
+
+    <nav class="menu-principal">
+        <ul class="nav">
+            <a href="/index.html"><img src="/img/logokid.png" alt="" class="logo"></a>
+            <li class="menu">
+                <a href="/index.html" id="inicio"><img src="/img/home.png" class="home">INICIO</a></li>
+            <li><a href="/pages_principal/contactos.html" id="contacto"><img src="/img/contacto.png" class="home">CONTACTOS</a></li>
+            <li><a href="/pages_principal/ayuda.html" id="ayuda"><img src="/img/ayuda.png" class="home">AYUDA</a></li>
+        </ul>
+    </nav>
+   
+    <div class="contenido-general">
+        <div>
+            <a href="/pages_Primaria/menores/Matt_Prim_menor.html"><img src="/img/exit.png" alt="" width="30px" height="30px" class="exit"></a> 
+            </div>
+        <section class="tit">
+            <h1>Juega y aprende</h1>
+        </section>
+        <section class="Suma-Math">
+            <h4>Seleccione la respuesta correcta de la suma</h4>
+            <div class="contenedor-suma">
+            <div class="juego_suma">
+                <div class="operador">
+                    x
+                </div>
+                <div class="juego-suma">
+                   <div class="num">
+                    <p class="pf" id="num1">7</p>
+                   </div>
+                   <div class="num" >
+                    <p class="pf" id="num2">245</p>
+                   </div>
+                   <hr>
+                   <div class="resp">
+                    <input type="number" id="resp" class="input-suma">
+                   </div>
+                </div>
+            </div>
+            
+            <div class="botones">
+                <button type="button" class="bt-mayor" onclick="play.actualizar_multiplicar()">Actualizar</button>
+                <button type="button" class="bt-mayor" onclick="play.comprobar_MULTI()">Comprobar</button>
+            </div>
+        </div>
+        </section>
+        <!--
+        <section class="juego-calc">
+            <h4>Seleccione la respuesta correcta de la multiplicación</h4>
+            <div class="calculator">
+                <div class="visor-resp">
+                    <div class="number">
+                      num1  
+                    </div>
+                    <p class="pf">x</p>
+                    <div class="number">
+                        num2
+                    </div>
+                    <p class="pf">=</p>
+                    <div class="resultado">
+                        resp
+                    </div>
+                </div>
+                <div class="bts-num-calc">
+                  
+                        <button type="button" class="bt-calc">7</button>
+                        <button type="button" class="bt-calc">8</button>
+                        <button type="button" class="bt-calc">9</button>
+
+                        <button type="button" class="bt-calc">4</button>
+                        <button type="button" class="bt-calc">5</button>
+                        <button type="button" class="bt-calc">6</button>
+
+                        <button type="button" class="bt-calc">1</button>
+                        <button type="button" class="bt-calc">2</button>
+                        <button type="button" class="bt-calc">3</button>
+
+                        <button type="button" class="bt-calc">0</button>
+                        <button type="button" class="bt-calc">DEL</button>
+                        <button type="button" class="bt-calc">=</button>
+                
+
+                </div>
+            </div>
+        </section>-->
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

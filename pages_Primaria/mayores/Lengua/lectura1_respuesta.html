@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo-juegos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body onload="play.actualizar_divisores()">
+
+    <nav class="menu-principal">
+        <ul class="nav">
+            <a href="/index.html"><img src="/img/logokid.png" alt="" class="logo"></a>
+            <li class="menu">
+                <a href="/index.html" id="inicio"><img src="/img/home.png" class="home">INICIO</a></li>
+
+            <li class="menu">
+                <a href="#primaria" id="primaria"> <img src="/img/primario.png" class="home">PRIMARIA</a>
+                <ul class="submenu">
+                    <li><a href="/pages_principal/Primaria_menores.html">Niños menores de 8</a></li>
+                    <li><a href="/pages_principal/Primaria_mayores.html">Niños mayores de 8</a></li>
+                </ul>
+            </li>
+
+            <li class="menu">
+                <a href="#secundaria" id="secundaria"><img src="/img/secundaria.png" class="home">SECUNDARIA</a>
+                <ul class="submenu">
+                    <li><a href="/pages_principal/Secundaria_basica.html">Basica superior</a></li>
+                    <li><a href="/pages_principal/Secundaria_bachillerato.html">Bachillerato</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/pages_principal/contactos.html" id="contacto"><img src="/img/contacto.png" class="home">CONTACTOS</a></li>
+            <li><a href="/pages_principal/ayuda.html" id="ayuda"><img src="/img/ayuda.png" class="home">AYUDA</a></li>
+        </ul>
+    </nav>
+   
+    <div class="contenido-general">
+            <div>
+           <a href="/pages_Primaria/mayores/Lengua/lectura_principal.html"><img src="/img/exit.png" alt="" width="30px" height="30px" class="exit"></a> 
+           </div>
+           
+            
+           
+        <section class="tit">
+            <h1>Juega y aprende</h1>
+        </section>
+       
+        <section class="j2-cuento">
+            <h4>COMPRUEBA SI HAZ ENTENDIDO</h4>
+            <div class="juego_cuento">
+                <div class="cuentos">
+                    <div class="input-group">
+                        <label for="cant_animales">¿Cuántos animales iban en el coche?</label>
+                        <input type="number" id="cant_animales" placeholder="">
+                    </div>
+                </div>
+                <div class="cuentos">
+                    <div class="input-group">
+                        <label for="copiloto">¿Qué animal se sentó en el asiento del copiloto?</label>
+                        <input type="text" id="copiloto" placeholder="">
+                    </div>
+                </div>
+                <div class="cuentos">
+                    <div class="input-group">
+                        <label for="conductor">¿Quién conducía el coche?</label>
+                        <input type="text" id="conductor" placeholder="">
+                    </div>
+                </div>
+                <div class="cuento_1">
+                    <button type="button" class="bt-mayor" onclick="play.comprobar_lectura1()">Comprobar</button>
+                </div>
+            </div>
+        </section>
+        <form action="/pages_Primaria/mayores/Lengua/lectura1.html">
+            <div class="atras">
+                <button type="submit" class="bt-continuar" >Atrás</button>
+            </div>
+                </form>
+        
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

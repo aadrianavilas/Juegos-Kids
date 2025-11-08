@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo-juegos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body onload="play.Num_mayor()">
+
+    <nav class="menu-principal">
+        <ul class="nav">
+            <a href="/index.html"><img src="/img/logokid.png" alt="" class="logo"></a>
+            <li class="menu">
+                <a href="/index.html" id="inicio"><img src="/img/home.png" class="home">INICIO</a></li>
+            <li><a href="/pages_principal/contactos.html" id="contacto"><img src="/img/contacto.png" class="home">CONTACTOS</a></li>
+            <li><a href="/pages_principal/ayuda.html" id="ayuda"><img src="/img/ayuda.png" class="home">AYUDA</a></li>
+        </ul>
+    </nav>
+   
+    <div class="contenido-general">
+        <div>
+            <a href="/pages_Primaria/menores/Matt_Prim_menor.html"><img src="/img/exit.png" alt="" width="30px" height="30px" class="exit"></a> 
+            </div>
+        <section class="tit">
+            <h1>Juega y aprende</h1>
+        </section>
+        <section class="j1-Math">
+            <h4>Analiza los números e ingresa el NÚMERO MAYOR</h4>
+            <div class="juego-Num_mayor">
+               <div class="num-aleatorios">
+                    <div class="num-mayor" id="num1">
+
+                    </div>
+                    <div class="num-mayor" id="num2">
+
+                    </div>
+                    <div class="num-mayor" id="num3">
+
+                    </div>
+               </div>
+                <div class="bt-numeros">
+                    <label for="num"></label>
+                    <input type="number" id="num" placeholder="Respuesta: ">
+                        <button type="button" class="bt-mayor"  onclick="play.comprobar_numMayor()">Comprobar</button> 
+                </div>
+            </div>
+            <div class="actualizar">
+                <button type="button" class="bt-mayor" onclick="play.Num_mayor()">Actualizar</button>
+            </div>
+        </section>
+        <form action="/pages_Primaria/menores/Matematica/mayor_menor3.html">
+            <div class="continuar">
+            <button type="submit" class="bt-continuar" >Continuar</button>
+        </div>
+        </form>
+        <form action="/pages_Primaria/menores/Matematica/mayor_menor.html">
+        <div class="atras">
+            <button type="submit" class="bt-continuar" >Atrás</button>
+        </div>
+            </form>
+    </div>
+    
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

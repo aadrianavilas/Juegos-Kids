@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Comic Sans Ms','Arial Rounded MT bold','Dancing Script';  
+    background-color: #c0daeb;
+    background-image: url(https://i.pinimg.com/736x/aa/e1/66/aae16655fe47c16bad729bf6b1a2be43.jpg); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+
+}
+
+ul{
+    list-style: none;
+}
+.logo{
+    width: 170px;
+    height: 70px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.home{
+    width: 30px;
+    height:30px;
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.menu-principal {
+    background-color: rgb(var(--color-hare));
+    width: 260.3px; /* Ancho del menú lateral */
+    height: 100%; /* O ajusta la altura según sea necesario */
+    position: fixed; /* Para que el menú sea fijo en la página */
+    border-right: 2px solid #000000;
+    
+}
+.menu-principal li a{
+    color: #060101;
+    background-color:rgb(var(--color-hare));
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 2px 30px;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.menu-principal li a:hover{
+    background-color: #90da8c;
+    border-radius: 12px;
+}
+
+#inicio1:target{
+    background-color: cornflowerblue;
+    border-radius: 12px;
+    border: 2px solid rgb(18, 68, 161);
+}
+.menu-principal>li {
+display: block;
+}
+.menu-principal li ul{
+    display:none;
+  
+}
+.menu-principal li:hover >ul{
+    display: block;
+}
+.nav{
+    padding: 15px 3px ;
+}
+
+#titulo{
+    color: black;
+    text-align: center;
+    font-size: 150px;
+    margin-left: 20px;
+    margin-top: 70px;
+    
+}
+
+.contenido{
+    margin-left: 230px; /* Ajusta el margen según el ancho del menú lateral */
+    padding: 2em;
+}
+.contenido1{
+    margin-left:550px; /* Ajusta el margen según el ancho del menú lateral */
+    padding: 2em;
+    margin-right: 300px;
+   
+}
+.contenido2{
+    margin-left:250px;
+}
+.contenido_ejericios{
+    margin-left:300px;
+}
+.titulos{
+    background-color: #c98fb5;
+    padding: 30px 4px ;
+    border-radius: 15px;
+    color: rgb(15, 14, 14);
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.menu1 {
+    /*border: solid 1px rgb(66, 66, 66);*/
+    border-radius: 5px;
+    width: 16em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 10px;
+    float: left;
+    margin: 10px 20px;
+    margin-left: 100px;
+    margin-right: 90px;
+     background-color: #e3cbdc;
+     
+     
+   }
+ 
+.menu1 a {
+    text-decoration: none;
+    color: rgb(21, 17, 17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.menu1 li {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    color: rgb(6, 6, 6);
+    font-size: 20px;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenido-exit {
+    position: fixed; /* Cambiado a posición fija para que permanezca en la misma ubicación al hacer scroll */
+    top: 0;
+    right: 0;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.exit-menu {
+    display: inline-block;
+}
+
+.menu1:hover{
+    background-color: rgb(179, 231, 187);
+    transition: all 0.rgb(555, 202, 206)ase-in-out;
+    padding: 10px;
+  }
+  .Opciones{
+    margin-top: 35px;
+}
+    .base,
+    .altura{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+#base,
+#lados,
+#altura{
+    margin-left: 10px;
+}
+
+#etiqueta{
+    margin-left: -15px;
+}
+.j-area{
+    border: 2px solid #0d1113;
+    padding-left: 30px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 0px #0f0c0c;
+    height: 400px;
+    background-color: rgb(179, 227, 245);
+}
+.area{
+    margin-bottom: 100px;
+}
+.impuesto-cont{
+    border: 2px solid #ed8282;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 250px;
+    background-color: #facbf6;
+}
+#sub-impuesto{
+    margin-left: 30px;
+}
+.bts-impuesto{
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 770px;
+}
+.bts-problemas{
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 770px;
+}
+.juego_problema{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 5px;
+}
+.base{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.bts-bases{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 770px;
+    background-color: #facbf6;
+}
+#view_num{
+    text-align: center;
+}
+.bases_cont{
+    border: 2px solid #e19898;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 230px;
+    background-color: #facbf6;
+}
+.etiqueta1{
+    margin-left: 55px;
+}
+#view_base,
+#view_num{
+    margin-left: 5px;
+}
+.etiqueta-base2{
+    margin-left: 15px;
+}
+.ortografía{
+    margin-bottom: 100px;
+}
+.bts-ortografia{
+    margin-left: 88px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 770px;
+}
+#obras{
+    margin-top: -40px;
+    margin-bottom: -20px;
+}
+.cadena-obras{
+    border: 2px solid #ccc;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    text-align: center;
+    padding: 8px 10px;
+    padding-top: 1px;
+    padding-bottom: -5px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 350px;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    background-color: #facbf6;
+}
+.obras{
+    margin-bottom: 30px;
+}
+.j2-Math2{
+    border: 2px solid #6A6A6A;
+    padding-left: 30px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 0px #6A6A6A;
+    height: 500px;
+    background-color: #b5d7ea;
+}
+.bts-obras{
+    margin-left: 88px;
+    margin-right: 0px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 770px;
+  }
