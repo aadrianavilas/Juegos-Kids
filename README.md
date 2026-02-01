@@ -31,15 +31,6 @@ npx http-server .
 ```
 y abrir http://localhost:8000
 
-## Cómo contribuir / editar
-- Añadir nuevas páginas bajo las carpetas correspondientes en [pages_Primaria/](pages_Primaria/) o [pages_secundaria/](pages_secundaria/).
-- Agregar estilos en [assets/css/](assets/css/) o importar nuevos archivos CSS.
-- Editar la lógica en [js/main.js](js/main.js) o [index.js](index.js).
-
-## Notas
-- Mantén la estructura de carpetas para que los enlaces relativos funcionen correctamente.
-- Optimiza las imágenes en [img/](img/) antes de subir.
-
 ## Licencia
 Proprietary
 
