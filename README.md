@@ -41,3 +41,9 @@ y abrir http://localhost:8000
 - Optimiza las imágenes en [img/](img/) antes de subir.
 
 ## Licencia
+Proprietary
+
+## Autores
+- Adrian Avila
+- Angie Mendoza
+- Angie Procel
